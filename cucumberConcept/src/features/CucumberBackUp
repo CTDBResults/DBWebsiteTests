@@ -1,0 +1,81 @@
+Feature: Proof of concept
+
+  Scenario: Content Management 6.1, Administrators will be able to update core content elements of the website via the CMS.
+    Given i am on DB website
+    #And on the home page I should see "view our services" option
+    And I should see the following <links> on the home page:
+      | links           |
+      | Careers         |
+      | Contact Us      |
+      | Home            |
+      | Partners        |
+      | Projects        |
+      | Project Details |
+      | Services        |
+      | Service details |
+      | Terms of Use    |
+      | Privacy         |
+    And I select the <linkname> on the page
+    Then I should be able to navigate to the <link> page
+
+  Scenario: Promoting DB Results, The website will display a list of ‘featured project’ summaries
+    Given I am  on DB website
+    And I select "projects" link
+    Then I should be able to see the "projects" page
+    And I select "learn more" link
+    Then I should be able to view the "project details" page
+
+  Scenario: Promoting DB Results, The website will feature content that outlines DB Results key partners.
+    Given I am  on DB website
+    And I select "projects" link
+    Then I should be able to view the "key partners" page
+
+  Scenario: Promoting DB Results, The website will feature About Us content that outlines the DB Results story, people and culture.
+    Given I am  on DB website
+    And I select "About Us" link
+    Then I should be able to view the "About Us" page
+
+  Scenario: Promoting DB Results,The website will feature contact details for DB Results including contact numbers and maps of office locations.
+    Given I am  on DB website
+    And I select "contact" link
+    Then I should be able to view the "contact" page
+
+  Scenario: Promoting DB Results, The website will feature a modern homepage design that reflects the DB Results brand, key messages, capability and experience.
+
+  # more details required
+  Scenario: Product Launchpad, The website will feature Service summaries
+    Given I am  on DB website
+    And I select "view our services" link
+    Then I should be able to view the "view our services" page
+
+  Scenario: Customer Engagement and Interaction, The website will promote Services offered
+
+  # add additional navigation and check links on all pages
+  Scenario: Customer Engagement and Interaction, The website will promote case studies & projects,
+
+  # add additional navigation and check links on all page
+  Scenario: Customer Engagement and Interaction, The website will feature content that outlines projects that DB Results have successfully delivered.
+    Given I am  on DB website
+    And I select "Projects" link
+    And I select "Learn More" option for "Rest"
+    Then I should be able to see details of "Rest"
+
+  # create examples for the above examples
+  Scenario: Customer Engagement and Interaction, The website will feature a contact form that when submitted will send to a nominated email address.
+    Given I am  on DB website
+    And I select "Contact" link
+    Then I should be able to view the "Contact" page
+    And I enter then details as:
+
+  # enter stuff and check mail
+  Scenario: Customer Engagement and Interaction, Negative Test:The website will feature a contact form that when submitted will send to a nominated email address.
+    Given I am  on DB website
+    And I select "Contact" link
+    Then I should be able to view the "Contact" page
+    And I enter then details as
+      | field   | value                         |
+      | name    | shori                         |
+      | email   | hemant.shori@dbresults.com.au |
+      | message | All is well                   |
+      And I select "submit" button
+      

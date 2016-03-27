@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Program Files/Automation Tools/CucumerEclipeJars/cucumber-core-1.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Automation Tools/CucumerEclipeJars/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Automation Tools/CucumerEclipeJars/cucumber-java-1.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Automation Tools/CucumerEclipeJars/cucumber-junit-1.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Automation Tools/CucumerEclipeJars/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Automation Tools/CucumerEclipeJars/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Automation Tools/CucumerEclipeJars/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Automation Tools/CucumerEclipeJars/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Automation Tools/CucumerEclipeJars/selenium-server-standalone-2.52.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Automation Tools/CucumerEclipeJars/picocontainer-2.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HShori.DBRESULTS/Documents/Selenium_Pack/Selenium_Pack/Selenium_Pack/poi/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HShori.DBRESULTS/Documents/Selenium_Pack/Selenium_Pack/Selenium_Pack/poi/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HShori.DBRESULTS/Documents/Selenium_Pack/Selenium_Pack/Selenium_Pack/poi/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
